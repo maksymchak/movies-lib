@@ -1,0 +1,20 @@
+.movies-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;  
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #304ffe;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus {
+  color: #00B4CC;
+}

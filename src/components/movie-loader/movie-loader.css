@@ -1,0 +1,22 @@
+.movies-attach-file {
+  margin-top: 30px;
+}
+
+.movies-attach-file .movies-file {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.movies-attach-file label {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-file:hover {
+  color: #90A4AE;
+}

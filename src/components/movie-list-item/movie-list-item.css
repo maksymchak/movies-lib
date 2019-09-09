@@ -1,0 +1,90 @@
+.movie {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 20px;
+  letter-spacing: normal;
+  color: #333;
+  transition: transform 4s;
+}
+
+.movie__icon {
+  display: inline-flex;
+  margin-right: 10px;
+  color: #304ffe;
+}
+
+.movie__title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 250px;
+  flex-shrink: 0;
+  min-width: 0;
+  font-weight: normal;  
+}
+
+.movie span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.movie__subtitle {
+  display: none;
+  color: #304ffe;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;  
+}
+
+.movie__release,
+.movie__format {
+  display: inline-flex;
+  justify-content: center;
+  flex-basis: 100px;
+  flex-shrink: 0;
+  margin-left: 10px;
+  border-left: 2px solid #ccc;
+}
+
+.movie__format {
+  border-right: 2px solid #ccc;
+  margin-right: 15px;
+}
+
+.movie__stars {
+  flex-grow: 1;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;  
+}
+
+.movie__stars .movie__subtitle {
+  display: inline-flex; 
+  margin-right: 5px;
+}
+
+.movie__btn-trash.btn {
+  display: none;
+  position: absolute;
+  right: 20px;
+  color: #666;
+}
+
+.movie:hover {
+  cursor: pointer;
+  background-color: rgba(144, 164, 174, .1);
+} 
+
+.movie:hover .movie__stars {
+  padding-right: 40px;
+}
+
+.movie:hover .movie__btn-trash {
+  display: inline-flex;
+}
+    
+

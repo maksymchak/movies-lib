@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+a, button, input, textarea {
+  outline: none;
+}
+  
+button {
+  cursor: pointer;
+  transition: all .4s;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;  
+}
+
+/* Buttons */ 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+.btn-trash,
+.btn-sort {
+  color: #666;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-trash i,
+.btn-sort i {
+  margin-left: 5px;
+}
+
+.btn-trash:hover {
+  color: #d23f31;
+}
+
+.btn-sort:hover {
+  color: #90A4AE;
+}
+
+.btn-add {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  color: #fff;
+  background-color: #d23f31;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  z-index: 100;
+}
+
+.btn-add:hover {
+  box-shadow: 0 0 4px 4px rgba(100, 100, 100, 1);
+}
+  

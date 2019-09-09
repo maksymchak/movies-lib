@@ -1,0 +1,133 @@
+.new-movie {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  box-shadow: 10px 10px 6px 0 rgba(0, 0, 0, 0.16);
+  z-index: 200;
+}
+
+.new-movie-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 25px;
+  color: #fff;
+  background-color: #444;
+}
+
+.new-movie-title {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+.form-group {
+  display: flex;
+  padding: 12px 25px;
+  text-align: left;
+}
+
+.form-group__label {
+  flex-basis: 15%;
+  font-size: 13px;
+  letter-spacing: normal;
+  color: #333;
+}
+
+.form-group__textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+}
+
+.form-group__textarea::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: normal;
+  color: #666;
+}
+
+.form-group-border-top {
+  border-top: 1px solid #454545;
+}
+
+.form-group__input {
+  flex-basis: 85%;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-group__input::placeholder,
+.form-group__input-webkit-input-placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: normal;
+  color: #666;
+}
+
+.form-group__input[type=number]::-webkit-inner-spin-button,
+.form-group__input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.form-group__select {
+  flex-basis: 85%;
+  color: #666;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-group__select option[selected] {
+  line-height: 1.25;
+}
+
+.new-movie-controls {
+  padding: 10px;
+  text-align: right;
+}
+
+.btn-form {
+  width: 90px;
+  padding: 10px 0;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #009688;
+}
+
+.btn-secondary {
+  color: #009688;
+  background-color: #fff;
+  border-color: #009688;
+}
+
+.btn-primary:hover {
+  background-color: darkslategray;
+}
+  
+.btn-secondary:hover {
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, .6);
+}
+  
