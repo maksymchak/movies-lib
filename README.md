@@ -1,3 +1,19 @@
+# Movies Lib
+
+![Movies Lib](assets/readme_1.png)
+
+Simple single-page application
+
+#### Features
+- Add a movie to list
+- Remove movie from the list
+- Clear list
+- Sort by title
+- Search by title and actors
+- Input validation
+- Import data from txt file
+- Adaptive and responsive design for desktop, tablet, mobile
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
